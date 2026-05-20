@@ -7,6 +7,7 @@ Impostiamo un nuovo script "watch" in package.json che possa essere lanciato con
   e proviamo a cambiare il nostro codice in modo che stampi nel terminale “Hello Boolean”. 
   Dovremmo vedere il terminale senza fermare e rilanciare il server.
  */
+import { cowsay } from "cowsayjs";
 
   console.log("hello world");
 
@@ -22,7 +23,23 @@ console.log("hello boolean");
 const tabella = process.argv;
 console.log(tabella);
 
+// prendere elemento da questo array fare in questo modo
+const parola = process.argv[2];
+console.log(parola);
+
 //nel terminale aggiungi node index.js e tabella lui mette questi 3 elementi insieme
+ 
+
+// pnpm add cowsayjs aggiungo dal terminale per inserirlo
+// aggiunto cowsayjs tramite import su 
+// inseriamo qui sotto
+
+const fraseDefinitiva = process.argv[2];
+const mucca = cowsay(fraseDefinitiva);
+console.log(mucca);
+
+
+
 
 
 
