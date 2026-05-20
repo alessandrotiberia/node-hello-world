@@ -33,10 +33,17 @@ console.log(parola);
 // pnpm add cowsayjs aggiungo dal terminale per inserirlo
 // aggiunto cowsayjs tramite import su 
 // inseriamo qui sotto
-
+/*
 const fraseDefinitiva = process.argv[2];
 const mucca = cowsay(fraseDefinitiva);
 console.log(mucca);
+*/
+
+// oppure posso scrivere una funzione da parola su
+
+const mucca = cowsay(parola);
+console.log(mucca);
+
 
 
 
