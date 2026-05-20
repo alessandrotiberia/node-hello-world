@@ -16,5 +16,5 @@ Impostiamo un nuovo script "watch" in package.json che possa essere lanciato con
   //punto 4 pnpm watch resta in aggiornamento per eventuali modifiche
   //package json scrivi: "watch": "node --watch index.js"
   
-console.log("ciaooo");
+console.log("hello boolean");
 
