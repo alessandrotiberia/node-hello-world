@@ -18,3 +18,11 @@ Impostiamo un nuovo script "watch" in package.json che possa essere lanciato con
   
 console.log("hello boolean");
 
+//bonus, process.argv è un array che inserisci cosa scrivo nel terminale?
+const tabella = process.argv;
+console.log(tabella);
+
+//nel terminale aggiungi node index.js e tabella lui mette questi 3 elementi insieme
+
+
+
